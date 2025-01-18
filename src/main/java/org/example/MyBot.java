@@ -130,7 +130,7 @@ public class MyBot extends TelegramLongPollingBot {
 
 
                 SendMessage message = new SendMessage();
-                message.setText("Sizning xabaringiz muvaffaqiyatli yuborildi");
+                message.setText("Sizning xabaringiz muvaffaqiyatli yuborildi tez orada sizbilan aloqaga chiqamiz");
                 message.setChatId(chatId);
                 try {
                     execute(message);
